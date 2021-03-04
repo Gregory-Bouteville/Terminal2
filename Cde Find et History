@@ -1,0 +1,42 @@
+$ find
+.
+./fictional
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./fictional/cybertron.jpeg
+./inhabited
+./inhabited/mars.jpeg
+./inhabited/neptune.jpeg
+./inhabited/saturn.jpeg
+./inhabited/uranus.jpeg
+./inhabited/venus.jpeg
+./real
+./real/gas-giants
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/mercury.jpeg
+./real/terrestrial
+./real/terrestrial/earth.jpeg
+
+ History
+  456  unzip planets.zip
+  457  cd planets
+  458  mkdir real fictional inhabited
+  459  cd real
+  460  mkdir terrestrial gas-giants dwarf-planets
+  461  cd ../
+  462  mv earth.jpeg mercury.jpeg pluto.jpeg jupiter.jpeg real
+  463  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictional
+  464  mv venus.jpeg mars.jpeg uranus.jpeg neptune.jpeg saturn.jpeg inhabited
+  465  cd real
+  466  ls
+  467  mv pluto.jpeg dwarf-planets
+  468  mv earth.jpeg terrestrial
+  469  ls
+  470  mv jupiter.jpeg mercury.jpeg gas-giants
+  471  ls
+  472  rm -r dwarf-planets
+  473  ls
+  474  cd ../
+  475  find
+  476  HISTORY
+  477  history
